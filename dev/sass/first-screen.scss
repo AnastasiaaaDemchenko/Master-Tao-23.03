@@ -8,7 +8,6 @@
         line-height: 126%;
         text-transform: uppercase;
         margin-bottom: 8px;
-        max-width: 463px;
     }
     
     &-slider__subtitle {
@@ -17,7 +16,6 @@
         font-weight: 300;
         line-height: 135.5%;
         margin-bottom: 37px;
-        max-width: 345px;
     }
 
     &-slider__arrows {
@@ -29,6 +27,7 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        padding: 0 50px;
     }
 
     .container {
@@ -39,7 +38,9 @@
         min-height: 700px;
         display: flex;
         align-items: center;
-        border-radius: 20px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .slick-dots {
