@@ -272,3 +272,95 @@ h6,
     border-radius: 20px;
 }
 
+.template-title {
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    padding-bottom: 18px;
+    margin-bottom: 50px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 124.5%;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(100% - 2px);
+        transform: translate(-50%, 0);
+        width: 85px;
+        height: 2px;
+        background-color: $secondary-color;
+    }
+
+    /*type 3*/
+    &.col-lg-7 {
+        margin-bottom: 35px;
+        h2 {
+            &:after {
+                content: "";
+                position: static;
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 10px 10px 10px 19px;
+                background-color: $secondary-color;
+            }
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.input-row {
+    display: flex;
+}
+
+.input-column {
+    width: 100%;
+}
+
+.input-box {
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 126%;
+        margin-bottom: 6px;
+    }
+
+    input {
+        border-radius: 10px;
+        padding: 16px 10px;
+        border: none;
+        transition: 1s;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}
+
+.padding {
+    padding-top: 21px; /*input-column*/
+}
+
+.has-checkbox {
+    margin-bottom: 6px;  /*input-box*/
+}
