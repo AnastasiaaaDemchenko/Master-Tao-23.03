@@ -1,3 +1,8 @@
+::selection {
+    color: #fff;
+    background-color: $secondary-color;
+}
+
 body {
     background-color: $bg-primary;
     color: $text-color;
@@ -302,11 +307,13 @@ h6,
         width: 85px;
         height: 2px;
         background-color: $secondary-color;
-    }
+    } 
 
     /*type 3*/
     &.col-lg-7 {
         margin-bottom: 35px;
+        left: -31px;
+        
         h2 {
             &:after {
                 content: "";
