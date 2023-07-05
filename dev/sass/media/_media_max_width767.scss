@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-    .calculation-form { 
+    .calculation-form {
         border-radius: 20px;
         padding: 52px 15px 15px;
         margin-left: initial;
@@ -9,8 +9,7 @@
         }
         
         .btn {
-            width: 100%;
-
+            max-width: 100%;
             .icon {
                 margin: 0 -14px 0 auto;
             }
@@ -24,4 +23,5 @@
         padding-top: 7px;
         padding-bottom: 5px;
     }
+
 }
