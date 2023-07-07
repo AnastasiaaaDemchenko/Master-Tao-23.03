@@ -1,15 +1,23 @@
 @media screen and (max-width: 767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .calculation-form {
         border-radius: 20px;
-        padding: 52px 15px 15px;
+        padding: 52px 30px 15px!important;
         margin-left: initial;
+
+        .input-box {
+            margin: 0 0 20px!important;
+        }
 
         #file-name {
             margin: 0px 0 12px;
         }
         
         .btn {
-            max-width: 100%;
+            max-width: none!important;
             .icon {
                 margin: 0 -14px 0 auto;
             }
@@ -20,8 +28,7 @@
     }
 
     .padding {
-        padding-top: 7px;
+        padding-top: 0!important;
         padding-bottom: 5px;
     }
-
 }

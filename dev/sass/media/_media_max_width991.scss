@@ -18,29 +18,34 @@
     }
 
     .container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
 
+    .row {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
     .navbar {
         padding-top: 16px;
         padding-bottom: 18px;
 
         &-brand {
+
             img {
                 max-width: 126px;
             }
         }
 
         &-collapse {
-            background-color: $bg-secondary;
             display: flex;
             flex-direction: column;
+            background-color: $bg-secondary;
             margin: 0 -20px;
             padding: 0 40px;
             transform: translate(0, 15px);
         }
-        
+
         &-nav {
             padding: 37px 0 23px;
 
@@ -70,8 +75,8 @@
         .container-xxl {
             min-height: calc(100vh - 74px);
             position: relative;
-            
-            &::after {
+           
+             &::after {
                 content: "";
                 position: absolute;
                 background: #0000008a;
@@ -79,12 +84,11 @@
                 right: 0;
                 top: 0;
                 bottom: 0;
-            }
+             }
         }
 
         &-slider__title {
             font-size: 32px;
-            max-width: 100%;
             margin-bottom: 10px;
         }
 
@@ -92,14 +96,15 @@
             font-size: 16px;
             margin-bottom: 18px;
         }
-
-        .btn-lg {
+        
+        .btn-lg{
             white-space: nowrap;
+            
             .icon {
                 margin: 0 -14px 0 35px;
             }
         }
-    }
+    } 
     
     .calculation__img-box {
         display: none;
@@ -107,17 +112,12 @@
 
     .template-title{
         margin-bottom: 35px;
-     
-        h2 {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 124.5%;
-        }
 
         &.col-lg-7.text-left {
             text-align: center;
 
-            h2{
+            h2 {
+                font-size: 24px;
                 &:after {
                    display: none;
                }

@@ -12,7 +12,6 @@
         max-width: 560px;
         width: 36vw;
     }
-
 }
 
 .calculation-form {
@@ -21,9 +20,6 @@
     background-color: $bg-secondary;
     border-radius: 20px;
     padding: 50px 35px 42px;
-    margin-left: 15px;
-
-  
 
     .input-box {
         margin: 0 15px 20px;
@@ -55,10 +51,10 @@
         padding: 11px;
         cursor: pointer;
         transition: .2s;
+
         &:hover {
             color: $secondary-color;
             border-color: $secondary-color;
-
         }
     }
 
@@ -66,7 +62,6 @@
         max-width: 251px;
         padding: 19.6px 29px;
     }
-
 }
 
 

@@ -1,10 +1,16 @@
 @media (min-width: 992px) {
     section {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+        &.container-fluid {
+            &:before {
+                border-radius: 20px;
+            }
+        }
     }
+    
+    .first-screen{
 
-    .first-screen {
         .container-xxl {
             border-radius: 20px;
             padding: 0 92px;
@@ -13,18 +19,19 @@
         &-slider__title {
             max-width: 473px;
         }
-
+    
         &-slider__subtitle {
             max-width: 345px;
         }
-    }
-    
+    } 
+
     .template-title {
+
         &.text-left,
         &.col-lg-7 {
             text-align: left;
-
-            &::after {
+    
+            &:after {
                 left: 0;
                 transform: none;
             }
