@@ -2,12 +2,12 @@
     section {
         margin-bottom: $section-margin;
         &.container-fluid {
-           padding: 55px 20px 60px;
+           padding: 55px 20px 60px!important;
            position: relative;
    
            &:before {
-                left: 0;
-                right: 0;
+                left: 0!important;
+                right: 0!important;
            }
 
            > .container {
@@ -112,12 +112,16 @@
 
     .template-title{
         margin-bottom: 35px;
+     
+        h2 {
+            font-size: 24px!important;
+            font-weight: 700;
+            line-height: 124.5%;
+        }
 
         &.col-lg-7.text-left {
             text-align: center;
-
-            h2 {
-                font-size: 24px;
+            h2{
                 &:after {
                    display: none;
                }
@@ -131,5 +135,20 @@
                 display: block;
             }
         }
+    }
+
+    .advantages {
+        .slick-slider {
+            padding-top: 10px;
+        }
+
+        .slick-dots {
+            margin-bottom: 60px;
+        }
+    }
+
+    .advantage {
+        padding: 0 20px;
+        margin-bottom: 25px;
     }
 }
