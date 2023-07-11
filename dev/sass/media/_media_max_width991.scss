@@ -1,4 +1,8 @@
 @media screen and (max-width: 991px) {
+    section,
+    .first-screen {
+        margin-bottom: 55px;
+    }
     section {
         margin-bottom: $section-margin;
         &.container-fluid {
@@ -17,9 +21,9 @@
        }
     }
 
-    .container {
-        padding-left: 20px!important;
-        padding-right: 20px!important;
+    div.container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .row {
@@ -110,11 +114,11 @@
         display: none;
     } 
 
-    .template-title{
+    div.template-title {
         margin-bottom: 35px;
      
         h2 {
-            font-size: 24px!important;
+            font-size: 24px;
             font-weight: 700;
             line-height: 124.5%;
         }
