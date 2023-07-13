@@ -1,0 +1,17 @@
+div.about-company {
+    margin-top: -10px;
+    .company-description {
+        p {
+            padding-bottom: 10px;
+        }
+    }
+
+    &__img-box {
+        position: absolute;
+        margin-top: -160px;
+        .container {
+            position: relative; 
+        }
+       
+    }
+}

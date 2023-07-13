@@ -3,6 +3,10 @@
     .first-screen {
         margin-bottom: 55px;
     }
+
+    section.delivery {
+        margin-bottom: $section-margin;
+    }
     section {
         margin-bottom: $section-margin;
         &.container-fluid {
@@ -150,9 +154,11 @@
             margin-top: 15px;
         }
     }
-
+    
     .advantage {
         padding: 0 20px;
         margin-bottom: 13px;
     }
+
+    
 }

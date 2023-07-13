@@ -31,4 +31,14 @@
         padding-top: 0!important;
         padding-bottom: 5px;
     }
+
+    div.about-company {
+        .company-description {
+            p {
+                text-align: justify;
+                font-size: 16px;   
+                line-height: 149.5%;
+            }
+        }
+    }
 }

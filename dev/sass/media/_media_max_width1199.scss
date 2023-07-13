@@ -29,4 +29,22 @@
     .calculation__img {
         width: 30vw;
     }
+
+    section.about-company {
+        .row {
+            flex-direction: column;
+        }
+
+        .company-description {
+            margin-bottom: 25px;
+        }
+
+        .about-company__img-box {
+            margin-top: 0;
+            .about-company__img {
+                width: 255px;
+                height: 284px;
+            }
+        }
+    }
 }

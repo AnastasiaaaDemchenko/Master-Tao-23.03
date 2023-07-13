@@ -2,4 +2,19 @@
     .slider-template {
         margin: 0 -15px;
     }
+    
+    section.services.container-fluid {
+        margin-bottom: 145px;
+    }
+
+    div.about-company {
+        .company-description {
+            width: 555px;
+            p {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 170%;
+            }
+        }
+    }
 }
