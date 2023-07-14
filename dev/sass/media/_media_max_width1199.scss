@@ -47,4 +47,21 @@
             }
         }
     }
+
+    section.questions {
+        margin-top: 395px;
+
+        .accordion-questions {
+            margin-bottom: 32px;
+        }
+        
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-questions {
+            margin-left: 0;
+        }
+    }
 }

@@ -41,4 +41,48 @@
             }
         }
     }
+
+    div.accordion-questions {
+        .accordion-button {       
+            &.collapsed {
+                font-size: 16px;
+                font-weight: 700;
+                padding:  21px 15px 12px 22px;
+            }
+
+            &:not(.collapsed) {
+                font-size: 16px;
+                font-weight: 700;
+                padding: 21px 32px 8px 24px;
+            }
+        }
+
+        .accordion-body {
+            font-size: 14px;
+            font-weight: 300;
+            padding: 0 15px 12px 22px;
+        }
+    }
+
+    .form-questions {
+        .form-title {
+            text-align: center;
+            padding: 38px 15px 8px;
+        }
+
+        .form-description {
+            text-align: center;
+            font-weight: 400; 
+            padding: 0 15px 23px;
+        }
+
+        .input-box {
+            padding-left: 20px;
+            padding-right: 20px;
+        }     
+        
+        input#text {
+            margin-bottom: 0;
+        }
+    }
 }

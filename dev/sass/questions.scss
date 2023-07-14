@@ -1,0 +1,84 @@
+.questions {
+    margin-top: 50px;
+
+    .form-questions {
+        max-width: 390px;
+        height: 553px;
+        background-color: $bg-secondary;
+        border-radius: 10px;
+
+        .form-title {
+            line-height: 126%;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .form-description {
+            line-height: 126%;
+            font-size: 17px;
+        }
+
+        .input-column {
+            padding-bottom: 38px;
+        }
+    }
+
+    .accordion-questions {
+        .accordion-item {
+            max-width: 716px;
+            border: 1px solid #3A444E;
+            margin-bottom: 16px;
+            border-radius: 10px;
+        }
+
+        .accordion-button {       
+            &.collapsed {
+                background-color: $bg-primary;
+                color: #FFF;
+                max-height: 64px;
+                line-height: 144.5%;
+                border-radius: 10px;
+                border: 1px solid #3A444E;
+                
+            }
+
+            &::after {
+                content: "";
+                margin-left: auto;
+                background-image: url(../assets/img/accordion-arrow-white.svg);
+                background-repeat: no-repeat;
+                background-size: 27px;
+                height: 30px;
+                width: 28px;
+            }
+            
+            &:focus {
+                border-color: transparent; 
+                box-shadow: none;
+            }
+
+            &:hover {
+                border-color: $primary-color;
+            }
+            
+            &:not(.collapsed) {
+                color: #282B38;
+                line-height: 124.5%;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: none;
+            }
+        }
+
+        .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+            background-image: url(../assets/img/accordion-arrow-orange.svg);
+            background-repeat: no-repeat;
+            transform: rotate(0deg) translate(17px, 2px);
+        }
+
+        .accordion-body {
+            color: #282B38;
+            line-height: 144.5%;
+        }
+    }
+}

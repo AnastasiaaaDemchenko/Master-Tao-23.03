@@ -1,3 +1,52 @@
 @media screen and (min-width: 768px) {
+    .accordion-questions {
+        .accordion-button {       
+            &.collapsed {
+                font-size: 18px;
+                font-weight: 700;
+                padding-left: 34px;
+                padding-top: 21px;
+            }
+
+            &:not(.collapsed) {   
+                font-size: 17px;
+                font-weight: 700;
+                padding: 21px 34px 10px;
+            }
+        }
+
+        .accordion-body {
+            font-size: 17px;
+            font-weight: 300;
+            padding: 0 99px 21px 34px;
+        }
+    }
+
+    .form-questions {
+        .form-title {
+            padding: 38px 40px 0;
+        }
+
+        .form-description {
+            font-weight: 300;
+            padding: 8px 40px 24px 40px;   
+        }
+
+        .input-box {
+            margin-bottom: 14px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: -8px;
+        }
+
+        .input-btn {
+            margin-top: 44px;
+            margin-bottom: 38px;
+        }
+        
+        input#text {
+            margin-bottom: 37px;
+        }
+    }
 
 }
