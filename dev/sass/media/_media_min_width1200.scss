@@ -19,10 +19,35 @@
     }
 
     section.questions {
-        margin-top: 395px;
+        margin-top: 168px;
+        margin-bottom: 157px;
         
         .form-questions {
             margin-left: -27px;
+        }
+    }
+
+    section.cooperation {
+        .description-content_1 {
+            .img-cooperarion {
+                margin-left: 56px;
+            }
+
+            p {
+                padding-bottom: 12px;
+                margin-left: 11px;
+            }
+        }
+
+        .img-cooperarion {
+            box-shadow: 5px 15px 40px #191e38fa;
+        }
+
+        .text-content {
+            max-width: 528px;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 156.5%;
         }
     }
 }
